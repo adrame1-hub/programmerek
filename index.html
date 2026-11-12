@@ -1,0 +1,292 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080b14">
+  <meta name="description" content="Portfolio d'Abdoulaye Dramé, étudiant en informatique à HESTIM Casablanca.">
+  <title>Abdoulaye Dramé | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#accueil" class="logo">A<span>.</span>D</a>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#accueil" class="nav-link active">Accueil</a></li>
+        <li><a href="#apropos" class="nav-link">À propos</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <a href="#contact" class="nav-cta">Me contacter ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ACCUEIL -->
+    <section class="hero container section" id="accueil">
+      <div class="hero-content reveal">
+        <div class="hero-intro">
+          <div class="status-pill"><span class="status-dot"></span> Étudiant en informatique · Casablanca</div>
+
+          <p class="eyebrow">BONJOUR, JE SUIS</p>
+          <h1>Abdoulaye<br><span class="gradient-text">Dramé.</span></h1>
+
+          <h2>Je suis <span id="typed-text">étudiant en informatique</span><span class="cursor">|</span></h2>
+
+          <p class="hero-description">
+            Étudiant en première année du cycle préparatoire informatique
+            à HESTIM School, Casablanca. Passionné par la programmation,
+            la technologie et la création de solutions numériques.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#projets" class="btn btn-primary">Découvrir mes projets ↗</a>
+          <a href="#contact" class="btn btn-secondary">Me contacter</a>
+        </div>
+
+        <div class="social-row">
+          <a href="https://www.linkedin.com/in/abdoulaye-dramé-011576442/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="mailto:TON-EMAIL@EXEMPLE.COM">E-mail ↗</a>
+        </div>
+
+        <div class="hero-visual">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+
+          <div class="code-card">
+            <div class="code-topbar">
+              <div class="window-dots"><span></span><span></span><span></span></div>
+              <span>abdoulaye.js</span>
+              <span>•••</span>
+            </div>
+
+            <div class="code-body">
+              <p><span class="ln">01</span><span class="purple">const</span> developer = {</p>
+              <p><span class="ln">02</span>&nbsp; name: <span class="green">"Abdoulaye Dramé"</span>,</p>
+              <p><span class="ln">03</span>&nbsp; school: <span class="green">"HESTIM"</span>,</p>
+              <p><span class="ln">04</span>&nbsp; city: <span class="green">"Casablanca"</span>,</p>
+              <p><span class="ln">05</span>&nbsp; field: <span class="green">"Informatique"</span>,</p>
+              <p><span class="ln">06</span>&nbsp; mindset: <span class="green">"Always learning"</span></p>
+              <p><span class="ln">07</span>};</p>
+              <br>
+              <p><span class="ln">08</span><span class="purple">function</span> <span class="cyan">future</span>() {</p>
+              <p><span class="ln">09</span>&nbsp; <span class="purple">return</span> <span class="green">"Keep growing 🚀"</span>;</p>
+              <p><span class="ln">10</span>}</p>
+            </div>
+
+            <div class="code-footer"><span>● Toujours en apprentissage</span><span>UTF-8</span></div>
+          </div>
+
+          <div class="floating-card floating-top">✦ <span><strong>Curiosité</strong><small>Apprendre chaque jour</small></span></div>
+          <div class="floating-card floating-bottom">⌘ <span><strong>Mode créatif</strong><small>Idées → Projets</small></span></div>
+        </div>
+      </div>
+
+      <a href="#apropos" class="scroll-indicator">↓ Faire défiler</a>
+    </section>
+
+    <!-- BANDEAU -->
+    <div class="tech-strip">
+      <div class="tech-track">
+        <span>PROGRAMMATION ✳</span><span>WEB DEVELOPMENT ✳</span>
+        <span>RÉSOLUTION DE PROBLÈMES ✳</span><span>APPRENTISSAGE CONTINU ✳</span>
+        <span>PROGRAMMATION ✳</span><span>WEB DEVELOPMENT ✳</span>
+        <span>RÉSOLUTION DE PROBLÈMES ✳</span><span>APPRENTISSAGE CONTINU ✳</span>
+      </div>
+    </div>
+
+    <!-- À PROPOS -->
+    <section class="section container" id="apropos">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 — QUI SUIS-JE ?</p>
+        <h2>Construire aujourd'hui,<br><span class="gradient-text">progresser demain.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <article class="glass-card about-card reveal">
+          <span class="card-index">01 / PROFIL</span>
+          <div class="about-symbol">⌘</div>
+          <h3>Un esprit curieux</h3>
+          <p>Étudiant en première année du cycle préparatoire informatique à HESTIM School à Casablanca, je développe mes connaissances en programmation et en technologies numériques.</p>
+        </article>
+
+        <article class="glass-card about-card reveal">
+          <span class="card-index">02 / OBJECTIF</span>
+          <div class="about-symbol">↗</div>
+          <h3>Apprendre par la pratique</h3>
+          <p>Je souhaite renforcer mes bases, créer des projets personnels et apprendre à concevoir des applications utiles et accessibles.</p>
+        </article>
+
+        <article class="glass-card about-card reveal">
+          <span class="card-index">03 / ÉTAT D'ESPRIT</span>
+          <div class="about-symbol">✳</div>
+          <h3>Évoluer constamment</h3>
+          <p>Chaque projet est une occasion de progresser, de comprendre mes erreurs et d'améliorer mes méthodes de travail.</p>
+        </article>
+      </div>
+
+      <div class="education-card glass-card reveal">
+        <div class="education-icon">🎓</div>
+        <div>
+          <p class="eyebrow">FORMATION ACTUELLE</p>
+          <h3>HESTIM School</h3>
+          <p>Cycle préparatoire informatique · Première année</p>
+          <span class="muted">Casablanca, Maroc</span>
+        </div>
+        <span class="badge">En cours</span>
+      </div>
+    </section>
+
+    <!-- COMPÉTENCES -->
+    <section class="section section-alt" id="competences">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">02 — MON UNIVERS TECHNIQUE</p>
+          <h2>Les outils pour<br><span class="gradient-text">donner vie aux idées.</span></h2>
+          <p class="section-description">Mes technologies d'apprentissage et mes outils de travail.</p>
+        </div>
+
+        <div class="skills-layout">
+          <div class="skills-panel glass-card reveal">
+            <h3>Développement web</h3>
+
+            <div class="skill-item">
+              <div class="skill-label"><span>HTML5</span><span>65%</span></div>
+              <div class="skill-track"><span style="--level:65%"></span></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label"><span>CSS3</span><span>55%</span></div>
+              <div class="skill-track"><span style="--level:55%"></span></div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-label"><span>JavaScript</span><span>35%</span></div>
+              <div class="skill-track"><span style="--level:35%"></span></div>
+            </div>
+
+            <p class="note">Modifie les pourcentages selon ton niveau réel.</p>
+          </div>
+
+          <div class="skills-panel glass-card reveal">
+            <h3>Outils & méthodes</h3>
+            <div class="tool-grid">
+              <div class="tool-chip">⌘ Git / GitHub</div>
+              <div class="tool-chip">▣ VS Code</div>
+              <div class="tool-chip">◇ Responsive design</div>
+              <div class="tool-chip">⌁ Debugging</div>
+              <div class="tool-chip">↗ Travail en équipe</div>
+              <div class="tool-chip">✳ Logique informatique</div>
+            </div>
+            <p class="note">Garde uniquement les outils que tu connais réellement.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJETS -->
+    <section class="section container" id="projets">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 — MES RÉALISATIONS</p>
+        <h2>Des idées qui prennent<br><span class="gradient-text">forme avec le code.</span></h2>
+        <p class="section-description">Voici les espaces où présenter tes projets personnels et tes travaux pratiques.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-one">
+            <div class="mock-browser">
+              <div class="mock-dots">● ● ●</div>
+              <div class="mock-content"><span></span><span></span><span></span><div class="mock-orb"></div></div>
+            </div>
+            <span class="project-number">01</span>
+          </div>
+          <div class="project-content">
+            <div class="project-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <h3>Portfolio personnel</h3>
+            <p>Un site responsive pour présenter mon parcours, mes compétences et mes réalisations.</p>
+            <a href="#contact" class="project-link">En savoir plus ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-two">
+            <div class="dashboard">
+              <div class="dashboard-side"></div>
+              <div class="dashboard-main"><span></span><span></span><div class="bars"><i></i><i></i><i></i><i></i><i></i></div></div>
+            </div>
+            <span class="project-number">02</span>
+          </div>
+          <div class="project-content">
+            <div class="project-tags"><span>JavaScript</span><span>DOM</span></div>
+            <h3>Tableau de bord</h3>
+            <p>Un projet pour apprendre à organiser, manipuler et afficher des données dans une interface.</p>
+            <a href="#contact" class="project-link">En savoir plus ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card glass-card reveal">
+          <div class="project-preview preview-three">
+            <div class="task-mockup"><span class="task-check">✓</span><div class="task-lines"><i></i><i></i><i></i></div><span>+</span></div>
+            <span class="project-number">03</span>
+          </div>
+          <div class="project-content">
+            <div class="project-tags"><span>JavaScript</span><span>Application</span></div>
+            <h3>Gestionnaire de tâches</h3>
+            <p>Une application pour pratiquer les événements, la logique et la gestion des tâches.</p>
+            <a href="#contact" class="project-link">En savoir plus ↗</a>
+          </div>
+        </article>
+      </div>
+
+      <p class="note">Les projets 02 et 03 sont des idées de démonstration. Présente-les comme réalisés seulement après les avoir développés.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div class="contact-orb"></div>
+          <p class="eyebrow">04 — PASSER À L'ACTION</p>
+          <h2>Une idée, une question<br>ou une opportunité ?</h2>
+          <p>Je serais ravi d'échanger avec d'autres étudiants, développeurs et professionnels du numérique.</p>
+
+          <div class="contact-actions">
+            <a href="mailto:TON-EMAIL@EXEMPLE.COM" class="btn btn-primary">M'envoyer un e-mail ↗</a>
+            <a href="https://www.linkedin.com/in/abdoulaye-dramé-011576442/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">Mon LinkedIn ↗</a>
+          </div>
+
+          <div class="contact-bottom">
+            <span><span class="status-dot"></span> Ouvert aux échanges</span>
+            <span>Casablanca, Maroc</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <a href="#accueil" class="logo">A<span>.</span>D</a>
+    <p>Conçu et développé par Abdoulaye Dramé.</p>
+    <a href="#accueil" class="back-top">Retour en haut ↑</a>
+    <span>© <span id="year"></span></span>
+  </footer>
+
+</body>
+</html>
